@@ -1,1 +1,165 @@
+/*Подключаем шрифты*/
+@font-face
+{
+    font-family: 'Gillroy-Bold';
+    src: url(./font/Gilroy-Bold.woff2);
+}
+@font-face
+ {
+    font-family: 'Gillroy-Medium';
+    src: url(./font/Gilroy-Medium.woff2);
+}
+@font-face 
+{
+    font-family: 'Gilroy-Semibold';
+    src: url(./font/Gilroy-Semibold.woff2);
+}
 
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    text-decoration: none;
+}
+body
+{
+    scroll-behavior: smooth;
+    background: #FFF;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.header
+{
+    max-width: 1920px;
+    max-height: 100px;
+}
+
+.navigation__menu
+{
+    max-width: 533px;
+    max-height: 17px;
+    margin-left: 1009px;
+}
+
+.navigation__link
+{
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.navigation__link-Home
+{
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Logotip
+{
+    max-width: 137px;
+    max-height: 40px;
+    margin-left: 372px;
+}
+.Logo
+{
+    width: 35px;
+    height: 40px;
+    flex-shrink: 0;    
+}
+.FirstPart
+{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.SecondPart
+{
+    color: #F25822;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+.main
+{
+    max-width: 1920px;
+    max-height: 600px;
+}
+
+.main img
+{
+    width: 610.735px;
+    height: 372.904px;
+    flex-shrink: 0;
+    margin-left: 931px;
+    margin-top: 100px;
+}
+
+.content__left-side h1
+{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 522px;
+    max-height: 222px;  
+    margin-bottom: 17px;
+    margin-left: 200px;
+}
+.content__left-side h2
+{
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    max-width: 446px; 
+    margin-left: 200px; 
+    margin-bottom: 20px; 
+}
+.content__btn
+{
+    width: 302px;
+    height: 50px;
+    flex-shrink: 0;  
+    margin-left: 200px;  
+   
+}
+.button_one
+{
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    border: none;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.button_two
+{
+    width: 90px;
+    height: 19px;
+    flex-shrink: 0;  
+    border: none;
+    background: none;
+    color: #AAAAAA;
+    cursor: pointer;
+}
